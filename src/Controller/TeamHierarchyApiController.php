@@ -11,6 +11,7 @@ class TeamHierarchyApiController extends AbstractController
     #[Route('api/team-hierarchy', name: 'app_team_hierarchy_api')]
     public function index(): JsonResponse
     {
+
         return $this->json([]);
     }
 }
