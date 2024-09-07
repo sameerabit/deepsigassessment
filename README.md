@@ -15,40 +15,7 @@ After cloning the codebase do as follows,
 
 `http://127.0.0.1:8000/api/team-hierarchy?_q=Sales`
 
-Response
+## Dev env used
 
-`{
-    "data": {
-        "C Suit": {
-            "teamName": "C Suit",
-            "parentTeam": "",
-            "managerName": "John Doe",
-            "businessUnit": "",
-            "teams": {
-                "Business team": {
-                    "teamName": "Business team",
-                    "parentTeam": "C Suit",
-                    "managerName": "Brad Gulter",
-                    "businessUnit": "business",
-                    "teams": {
-                        "Sales": {
-                            "teamName": "Sales",
-                            "parentTeam": "Business team",
-                            "managerName": "Steph Stephans",
-                            "businessUnit": "business",
-                            "teams": {
-                                "Customer Relations": {
-                                    "teamName": "Customer Relations",
-                                    "parentTeam": "Sales",
-                                    "managerName": "John Cutleras",
-                                    "businessUnit": "business",
-                                    "teams": []
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}`
+PHP 8.3.3 (cli) (built: Feb 13 2024 15:41:14) (NTS)
+Symfony 7.1
