@@ -7,6 +7,7 @@
         "php": ">=8.2",
         "ext-ctype": "*",
         "ext-iconv": "*",
+        "friendsofphp/php-cs-fixer": "^3.64",
         "symfony/console": "7.1.*",
         "symfony/dotenv": "7.1.*",
         "symfony/flex": "^2",
@@ -65,6 +66,7 @@
         }
     },
     "require-dev": {
+        "phpmd/phpmd": "^2.15",
         "symfony/maker-bundle": "^1.61"
     }
 }
