@@ -4,6 +4,8 @@ This API endpoint is for extracting plain data from csv file and build hierachy 
 
 API is Secured with X-API-TOKEN stored .env file
 
+Remember to set X-API-TOKEN in the headers when using the API endpoint
+
 After cloning the codebase do as follows,
 
     1. cd <project_dir> && composer install
