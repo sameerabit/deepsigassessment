@@ -10,7 +10,7 @@ class TeamCollection
 
     public function __construct(array $hierachyData)
     {
-        $this->teams = array_map(fn($raw) => new Team($raw['team'], $raw['parentTeam'], $raw['managerName'], $raw['businessUnit']), $hierachyData);
+        $this->teams = array_map(fn ($raw) => new Team($raw['team'], $raw['parentTeam'], $raw['managerName'], $raw['businessUnit']), $hierachyData);
     }
 
     public function buildHierarchy(?string $filterTeam = null): array
